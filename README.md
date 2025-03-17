@@ -55,17 +55,6 @@ Once the application is running, you can access:
 API endpoint: http://localhost:8000/summarize/
 API documentation: http://localhost:8000/docs
 
-## Example API Request
-import requests
-
-url = "http://localhost:8000/summarize/"
-payload = {
-    "text": "The rapid advancement of artificial intelligence technologies has sparked widespread debate about the future of work, education, and society. As machine learning algorithms become increasingly sophisticated, they are transforming industries ranging from healthcare to transportation, raising both excitement about potential benefits and concerns about disruption. Proponents argue that AI will lead to unprecedented productivity gains, free humans from mundane tasks, and solve complex problems previously thought intractable.",
-    "max_length": 100,
-    "min_length": 30
-}
-response = requests.post(url, json=payload)
-print(response.json())
 
 ## Project Structure
 #### app.py: FastAPI application code
