@@ -69,8 +69,8 @@ print(response.json())
 
 ## Project Structure
 Copyai-text-summary-final/
-├── app.py              # FastAPI application code
-├── Dockerfile          # Docker configuration
-├── docker-compose.yml  # Docker Compose configuration
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
+app.py: FastAPI application code
+Dockerfile: Docker configuration
+docker-compose.yml: Docker Compose configuration
+requirements.txt: Python dependencies
+
